@@ -1,0 +1,7 @@
+{
+    "action_dim": 28,
+    "batch_size": 64,
+    "tau": 0.005,
+    "gamma": 0.99,
+    "grad_clip": 20.0
+}

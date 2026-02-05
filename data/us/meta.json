@@ -1,0 +1,39 @@
+{
+    "market": "us",
+    "n_dates": 4403,
+    "n_symbols": 28,
+    "date_from": "2008-03-31",
+    "date_to": "2025-09-26",
+    "shapes": {
+        "dates": [
+            4403
+        ],
+        "market_features": [
+            4403,
+            4
+        ],
+        "asset_features": [
+            28,
+            4403,
+            5
+        ],
+        "ror_array": [
+            28,
+            4403
+        ]
+    },
+    "market_feature_labels": [
+        "mkt_m5",
+        "mkt_m10",
+        "mkt_m20",
+        "mkt_m60"
+    ],
+    "asset_feature_labels": [
+        "r_open",
+        "r_high",
+        "r_low",
+        "r_close",
+        "r_adj_close"
+    ],
+    "description": "Ratio-based features. Shapes: Asset(N,T,F), Market(T,F), ROR(N,T)."
+}

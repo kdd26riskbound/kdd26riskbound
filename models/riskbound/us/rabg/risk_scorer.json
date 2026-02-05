@@ -1,0 +1,7 @@
+{
+    "asset_in": 5,
+    "market_in": 4,
+    "hidden_dim": 128,
+    "tcn_levels": 3,
+    "kernel_size": 3
+}
